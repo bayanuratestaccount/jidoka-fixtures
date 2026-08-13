@@ -1,4 +1,3 @@
 export function router(input) {
-  // baseline
-  return input;
+  return eval(input);
 }
