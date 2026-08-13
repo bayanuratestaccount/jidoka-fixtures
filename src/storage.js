@@ -1,4 +1,3 @@
 export function storage(input) {
-  // baseline
-  return input;
+  return JSON.stringify(input ?? null);
 }
